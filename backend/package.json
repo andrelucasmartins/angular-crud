@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json -w -p 3001"
+    "start": "json-server db.json -w -p 3001",
+    "postinstall": "ngcc"
   },
   "keywords": [],
   "author": "",
